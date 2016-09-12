@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- Bootstrap JS -->	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Mon css perso -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="keywords" content="chausse, pied, chausse-pied, tire-botte, botte, artisanat, made in france">
+	<title>Wild Shoes</title>
+</head>
+<body>
+<header>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Wild Shoes</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos Chausse-pieds <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Bois</a></li>
+            <li><a href="#">Métal</a></li>
+            <li><a href="#">Corne</a></li>
+            <li><a href="#">Téléscopique</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Personnalisation</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="file:///home/m21/Documents/wildCodeSchool/Projet 1/index.html">Accueil <span class="sr-only">(current)</span></a></li>
+              <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos tire-bottes <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Bois</a></li>
+            <li><a href="#">Métal</a></li>
+            <li><a href="#">Grattoir</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Personnalisation</a></li>
+          </ul>
+        </li>
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#qui">Qui sommes nous?</a></li>
+        </ul>
+      </ul>
+    </div><!-- Fin du navbar-collapse -->
+  </div><!-- Fin du container-fluid -->
+</nav><!-- Fin du Navbar -->
+
+  <!-- Jumbotron -->
+<div class="jumbotron">
+	<div class="container-fluid">
+		<div class="col-lg-12 col-md-12">
+			<img class="img-responsive logo" src="images/logo.png" alt="logo wild shoes">
+		</div>
+		<div class="col-lg-8 col-md-10 slogan">
+			<h1>Chausse qui peut...</h1>
+			<h2>Artisan créateur de chausse-pieds et tire-bottes depuis 1927</h2>
+			<br/>
+			<a class="scroll" href="#bigbloc" alt="Accedez directement à nos produits" title="Accedez directement à nos produits" ><span class="glyphicon glyphicon-chevron-down"></span></a>
+		</div>
+	</div>
+</div><!-- fin du Jambotron -->
+</header>
+
+<div id="qui" class="presentation">
+	<div class="container">
+		<div clas="hidden-xs">
+			<h1>Qui sommes nous?</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<br /><br />
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+				</p>
+		
+		</div>
+	</div>
+</div><!--Fin du div presentation-->
+
+<!--Début images produits-->
+<!--Image produit 1-->
+<div id="bigbloc">
+
+<div class="row">
+<div class="blocimg">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+    <h1 class="prod_title">Grattoir</h1>
+<div class="button-center">
+<img src="images/grattoir.jpeg" alt="Chausse pied métal" class="imgprod">
+<!-- Bouton execution modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  En savoir plus
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title" id="myModalLabel">Grattoir</h4>
+</div>
+<div class="modal-body">
+<img src="images/grattoir.jpeg" alt="Grattoir" class="imgmodal">
+<p class="textmodal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas, est id pretium tristique, odio dolor dictum ligula, ac porta libero est in mi. Integer accumsan pretium odio sit amet euismod. Nullam tincidunt, risus sit amet placerat finibus, sapien enim congue lorem, ultrices mollis mi enim et ante.</p>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+</div>
+
+
+<!--Fin image produits 1-->
+<!--Début Image produit 2-->
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+    <h1 class="prod_title">Grattoir</h1>
+<div class="button-center">
+<img src="images/grattoir.jpeg" alt="Chausse pied métal" class="imgprod">
+<!-- Bouton execution modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  En savoir plus
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title" id="myModalLabel">Grattoir</h4>
+</div>
+<div class="modal-body">
+<img src="images/grattoir.jpeg" alt="Grattoir" class="imgmodal">
+<p class="textmodal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas, est id pretium tristique, odio dolor dictum ligula, ac porta libero est in mi. Integer accumsan pretium odio sit amet euismod. Nullam tincidunt, risus sit amet placerat finibus, sapien enim congue lorem, ultrices mollis mi enim et ante.</p>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+
+<!--Fin image produits 2-->
+<!--Début image produits 3-->
+
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+    <h1 class="prod_title">Téléscopique</h1>
+<div class="button-center">
+<img src="images/téléscopique.jpeg" alt="Chausse pied métal" class="imgprod">
+<!-- Bouton execution modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  En savoir plus
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title" id="myModalLabel">Grattoir</h4>
+</div>
+<div class="modal-body">
+<img src="images/téléscopique.jpeg" alt="Chausse pied Corne" class="imgmodal">
+<p class="textmodal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas, est id pretium tristique, odio dolor dictum ligula, ac porta libero est in mi. Integer accumsan pretium odio sit amet euismod. Nullam tincidunt, risus sit amet placerat finibus, sapien enim congue lorem, ultrices mollis mi enim et ante.</p>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+
+<!--Fin Image produits 3-->
+
+<!--Début image produits 4-->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+    <h1 class="prod_title">Tire botte métal</h1>
+<div class="button-center">
+<img src="images/tirebotte_metal.jpeg" alt="Chausse pied métal" class="imgprod">
+<!-- Bouton execution modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  En savoir plus
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title" id="myModalLabel">Grattoir</h4>
+</div>
+<div class="modal-body">
+<img src="images/tirebotte_metal.jpeg" alt="Chausse pied Corne" class="imgmodal">
+<p class="textmodal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas, est id pretium tristique, odio dolor dictum ligula, ac porta libero est in mi. Integer accumsan pretium odio sit amet euismod. Nullam tincidunt, risus sit amet placerat finibus, sapien enim congue lorem, ultrices mollis mi enim et ante.</p>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+
+
+<!--Fin Image produits 4-->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+    <h1 class="prod_title">Chausse pied métal</h1>
+<div class="button-center">
+<img src="images/chausse_pied_metal.jpeg" alt="Chausse pied métal" class="imgprod">
+<!-- Bouton execution modal -->
+<button class="btn btn-primary btn-lg blackbutton" data-toggle="modal" data-target="#myModal">
+  En savoir plus
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title" id="myModalLabel">Chausse pied Métal</h4>
+</div>
+<div class="modal-body">
+<img src="images/chausse_pied_metal.jpeg" alt="Chausse pied métal" class="imgmodal">
+<p class="textmodal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas, est id pretium tristique, odio dolor dictum ligula, ac porta libero est in mi. Integer accumsan pretium odio sit amet euismod. Nullam tincidunt, risus sit amet placerat finibus, sapien enim congue lorem, ultrices mollis mi enim et ante.</p>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+<!--Fin image produits 1-->
+<!--Début Image produit 2-->
+<div class="blocimg">
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+    <h1 class="prod_title">Grattoir</h1>
+<div class="button-center">
+<img src="images/grattoir.jpeg" alt="Chausse pied métal" class="imgprod">
+<!-- Bouton execution modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  En savoir plus
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title" id="myModalLabel">Grattoir</h4>
+</div>
+<div class="modal-body">
+<img src="images/grattoir.jpeg" alt="Grattoir" class="imgmodal">
+<p class="textmodal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas, est id pretium tristique, odio dolor dictum ligula, ac porta libero est in mi. Integer accumsan pretium odio sit amet euismod. Nullam tincidunt, risus sit amet placerat finibus, sapien enim congue lorem, ultrices mollis mi enim et ante.</p>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+</div>
+<!--Fin image produits 2-->
+<!--Début image produits 3-->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+    <h1 class="prod_title">Téléscopique</h1>
+<div class="button-center">
+<img src="images/téléscopique.jpeg" alt="Chausse pied métal" class="imgprod">
+<!-- Bouton execution modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  En savoir plus
+</button>
+</div>
+<div class="button-center">
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title" id="myModalLabel">Grattoir</h4>
+</div>
+<div class="modal-body">
+<img src="images/téléscopique.jpeg" alt="Chausse pied Corne" class="imgmodal">
+<p class="textmodal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas, est id pretium tristique, odio dolor dictum ligula, ac porta libero est in mi. Integer accumsan pretium odio sit amet euismod. Nullam tincidunt, risus sit amet placerat finibus, sapien enim congue lorem, ultrices mollis mi enim et ante.</p>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+</div>
+<!--Fin Image produits 3-->
+
+<!--Début image produits 4-->
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+    <h1 class="prod_title">Tire botte métal</h1>
+<div class="button-center">
+<img src="images/tirebotte_metal.jpeg" alt="Chausse pied métal" class="imgprod">
+<!-- Bouton execution modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  En savoir plus
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title" id="myModalLabel">Grattoir</h4>
+</div>
+<div class="modal-body">
+<img src="images/tirebotte_metal.jpeg" alt="Chausse pied Corne" class="imgmodal">
+<p class="textmodal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas, est id pretium tristique, odio dolor dictum ligula, ac porta libero est in mi. Integer accumsan pretium odio sit amet euismod. Nullam tincidunt, risus sit amet placerat finibus, sapien enim congue lorem, ultrices mollis mi enim et ante.</p>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+</div>
+</div>
+</div>
+<!--Fin images produits-->
+
+
+<!--Partie carte des magasins-->
+<div class="maps">
+	<div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 left_present">
+		<h2>Nos magasins</h2>
+			<p>Nos magasin sont implantés sur toute la France, Cliquez sur un point pour connaitre l'adresse la plus proche de chez vous</p>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 maps2">	
+	<iframe width="390" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=1.8395233154296873%2C47.861549245505635%2C1.977710723876953%2C47.94843104036791&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/>	
+	</div>
+</div> 
+
+<!--Fin de la carte des magasins-->
+
+<!--Début du footer-->
+<footer>
+<!--Blod de gauche / CGU mentions légales.. -->
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 left_bloc">
+    <ul>
+      <a href="#"><li>Mentions légales</li></a>
+      <a href="#"><li>C.G.U.</li></a>
+      <a href="#"><li>A propos de nous</li></a>
+
+    </ul>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 center_bloc">
+    <h1 class="contact">Contactez nous</h1>
+  </div>
+  <!--Bloc de droite / Réseaux sociaux-->
+  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 right_bloc">
+    <a href="http://www.facebook.com"><img class="social" src="images/facebook.png" alt="Facebook"></a>
+    <a href="http://www.twitter.com"><img class="social" src="images/twitter.png" alt="Twitter"></a>
+    <a href="https://fr.pinterest.com/"><img class="social" src="images/pinterest.png" alt="Pinterest"></a>
+  </div>
+  </footer>
+</body>
+</html>
+<!--Test git-->
+     
